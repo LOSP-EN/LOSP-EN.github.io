@@ -1,19 +1,19 @@
 {% include header.html %}
     <div class="bs-header" id="bs-header">
       <div class="container">
-        <h1>博客</h1>
-        <p>关注我们的最新动向</p>
+        <h1>Blog</h1>
+        <p>Keep in touch with us</p>
       </div>
     </div>
     <br />
     <div class="container bs-docs-container">
       <ol class="breadcrumb">
         <li><a href="{{ site.baseurl }}">LOSP</a></li>
-        <li><a href="{{ site.baseurl }}">博客</a></li>
+        <li><a href="{{ site.baseurl }}">Blog</a></li>
         <li class="active">{{ page.title }}</li>
       </ol>
       <p><h3>{{ page.title }}</h3></p>
-      <p><span class="label label-info">发表于</span> <span class="label label-default">{{ page.date | date: "%Y 年 %m 月 %d 日" }}</span></p>
+      <p><span class="label label-info">Authorized on</span> <span class="label label-default">{{ page.date | date: "%Y - %m - %d" }}</span></p>
       <br />
       {{ content }}
       <br /><br /><br />
@@ -21,7 +21,7 @@
       </div>
 
       <script type="text/javascript">
-        var disqus_shortname = 'sdus';
+        var disqus_shortname = 'lospinfo';
 
         var disqus_url = "{{ site.url }}{{ page.url }}";
 
@@ -31,7 +31,7 @@
             (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
         })();
       </script>
-      <noscript>请打开JavaScript来浏览<a href="http://disqus.com/?ref_noscript">DisQus 评论.</a></noscript>
-      <a href="http://disqus.com" class="dsq-brlink">请等待评论加载</a>
+      <noscript>Please allow JavaScript<a href="http://disqus.com/?ref_noscript">DisQus.</a></noscript>
+      <a href="http://disqus.com" class="dsq-brlink">Please wait</a>
     </div>
 {% include footer.html %}

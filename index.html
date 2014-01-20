@@ -5,33 +5,33 @@ title: Light OpenSource Project
     <main class="bs-masthead" id="content" role="main">
       <div class="container">
       <h1>Light OpenSource</h1>
-      <p class="lead">准备好了吗？<br />让我们开始一段激动人心的旅程</p>
+      <p class="lead">Are you ready?<br />This trip will never be forgotten.</p>
       <p>
-        <a href="javascript:showBlog();" class="btn btn-outline-inverse btn-lg">立即开始</a>
+        <a href="javascript:showBlog();" class="btn btn-outline-inverse btn-lg">Start Now</a>
       </p>
       </div>
     </main>
     <div class="bs-header" id="bs-header">
       <div class="container">
-        <h1>博客</h1>
-        <p>关注我们的最新动向</p>
+        <h1>Blog</h1>
+        <p>Keep in touch with us</p>
       </div>
     </div>
     <br />
     <div class="container bs-docs-container" id="containter">
       <ol class="breadcrumb">
         <li><a href="{{ site.baseurl }}">LOSP</a></li>
-        <li class="active">博客</li>
+        <li class="active">Blog</li>
       </ol>
       {% for post in paginator.posts %}
       {% include single.html %}
       {% endfor %}
       <ul class="pager">
         {% if paginator.next_page %}
-        <li><a href="{{ paginator.next_page_path }}"><< 较早</a></li>
+        <li><a href="{{ paginator.next_page_path }}"><< Older</a></li>
         {% endif %}
         {% if paginator.previous_page %}
-        <li><a href="{{ paginator.previous_page_path }}">较新 >></a></li>
+        <li><a href="{{ paginator.previous_page_path }}">Newer >></a></li>
         {% endif %}
       </ul>
     </div>
