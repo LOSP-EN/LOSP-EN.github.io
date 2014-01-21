@@ -1,7 +1,7 @@
 baseurl: /
 pygments: true
 title: Light OpenSource Project
-url: http://shandian.us
+url: http://losp.info
 paginate: 5
 paginate_path: "page:num"
 markdown:      maruku

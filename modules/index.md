@@ -1,51 +1,34 @@
 ---
 layout: nodate
-title: 扩展模块
-subtitle: 只有想不到，没有做不到
+title: Xposed Modules
+subtitle: Nothing is impossible
 ---
-*__滑动返回__*  
+*__SwipeBack__*  
+Features:  
+* Global swipe back gesture  
+* Blacklist support (you can add any app that doesn't work with this module to blacklist)  
+* Custom gesture direction  
 
-*1.0.1*  
-初始化版本，基本功能实现  
-支持黑名单  
+Usage:  
+* Download and install  
+* Activate in xposed, then reboot  
+* Configure swipe edge as you like  
+* Swipe! (For example, if you set "Swipe Edge" to bottom, you can swipe from the bottom of an actvity to the top, and then it will be finished)  
+* If you found any app not working with this module, you can add it to Blacklist, and contact me with it's name.  
 
-*1.0.2*  
-优化 黑名单页面中显示系统app  
-修复 部分情况下对话框会闪退或显示不正确  
+Tests Info:  
+* AOSP 4.4.x (Kitkat) - Works Fine  
+* MIUI v5 (JellyBean) - Works with little problems  
+* Android 4.1-4.3 (JellyBean) - Almost Fine
 
-*1.1.0*  
-__如果从老版本升级到此版本后发现fc，请在设置中对本应用清除数据__  
-修复 屏幕旋转失效  
-新增 可同时选择多个滑动边缘  
-尝试修复 部分app完全透明背景  
-新增 首次运行向导(感谢：ShowcaseView，这就是为什么apk大小增加了这么多)  
-新增 关于界面  
-其他 代码优化和清理  
+Requirements:  
+* Android version >= 4.1  
+* Xposed Framework version >= 2.4.1(42+)  
 
-*1.1.5*  
-新增 支持设置触发区域大小  
-新增 可切换的黑/白名单  
-修复 Surface回收机制失效  
-修复 通话界面被滑动关闭  
-优化 黑/白名单列表按字母排序  
-优化 提升代码效率  
+Credits:  
+* Issacw0ng (for his original SwipeBackLayout library)
 
-下载[1.1.5]: <http://pan.baidu.com/share/link?shareid=1263212121&uk=2703971393>  
+Download link: <http://repo.xposed.info/module/us.shandian.mod.swipeback>  
+Source: <https://github.com/LOSP/SwipeBack>
 
-*__列表动画__*  
-
-*1.0.1*  
-初始化版本  
-下载[1.0.1]: <http://pan.baidu.com/share/link?shareid=976518559&uk=2703971393>
-
-*__使用说明__*  
-首先，所有模块 __仅支持__ Android 4.1 及 __以上__ 系统  
-LOSP项目提供的所有外加模块都依赖于 __Xposed框架__ 以正常运行。  
-__Xposed框架__ 是一款能够不修改ROM本身而加载外挂模块以实现从前需要自定义ROM才能实现的功能。  
-我们在 __Xposed框架__ 的基础上开发外加模块，是为了顺应模块化的潮流，并且避免合并新版本的麻烦，也可以使我们的特色功能在更多ROM上轻松运行。
-
-要使用我们提供的外加模块，您需要先安装 __Xposed安装器__ ，这个应用你可以在大部分应用市场或搜索引擎找到(请确保您使用的是 __最新版本__)。安装后，请按照其提示(自带中文)安装好 __Xposed框架__，然后下载安装本页面提供的外加模块，并在 __Xposed安装器__ 中开启，按照提示重启后即可使用。
-
-请注意，有一些功能，由于已经有其他Xposed模块提供这些功能，所以我们不会进行重复的开发，比如说曾经LOSP的很多功能都可以由 __GravityBox__ 这个模块提供。
-
-LOSP提供的模块均为开源，您可以在本站导航菜单上找到开源项目地址。
+MORE XPOSED MODULES ARE COMING SOON!

@@ -1,19 +1,12 @@
 ---
 layout: nodate
-title: 关于
-subtitle: 我们从哪里来，又去向何处
+title: About
+subtitle: Where we come from, and where we are going to
 ---
-![poster]({{ site.baseurl }}res/images/poster.png)
+Light OpenSource Project, which is often called 'LOSP', was set up by PeterCxy.
 
-Light OpenSource Project，简称LOSP，由喝雪碧的虾发起，是基于Slim源码开发的一个全新的Android分支。
+LOSP used to be an Android ROM project, which aimed to provide new features and support for legacy devices. Since 2014, we have turned LOSP into an open-source project that aims to provide Xposed modules with features in custom ROMS.
 
-LOSP基于Slim的优质流畅源代码开发，汲百家之长，做出自己的特色，提供完美的legacy老设备支持，本地化功能，且拥有比其他开源项目更好的对中国电信的支持，并且将会有更多有趣好玩和本地化的功能加入。
+However, LOSP still open the source of its ROM, but it will be pure AOSP except porting code for legacy devices. If you like a pure ROM to run Xposed modules without any conflict, LOSP's source may be the best choice for you to complie. For more information, you can visit the 'Developers' page.
 
-喝雪碧的虾于2013年7月30日正式发起LOSP项目，致力做出我们最爱的开源项目
-
-> 做ROM，就是要自己喜欢，然后他人才会喜欢  
-> Light, 意为精简，也可以认为是光。  
-> 没错，就是要你眼前一亮  
-> —— Light OpenSource Project
-
-欢迎各位用户加入官方QQ群 __102474536__ 一起交流
+LOSP was set up on 30th Jul, 2013, just want to make it your favourite open-source project.
