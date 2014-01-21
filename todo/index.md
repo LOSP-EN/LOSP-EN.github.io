@@ -1,10 +1,10 @@
 ---
 layout: nodate
 title: TO-DO List
-subtitle: 一切尽在计划之中
+subtitle: Everything in our plan
 ---
-Xposed框架实现特色功能\[ __进行中__ \]  
--- HALO \[ __计划中__ \]
--- 滑动返回 \[ __维护中__ \]
--- 列表动画 \[ __进行中__ \]
-注入式Xposed框架\[ __计划中__ \]  
+Xposed Modules\[ __Always working__ \]  
+-- HALO \[ __Planning__ \]
+-- SwipeBack \[ __Maintaining__ \]
+-- ListAnims \[ __Working__ \]
+Embedded Xposed Framework\[ __Planning__ \]  
