@@ -6,7 +6,7 @@ subtitle: Nothing is impossible
 *__SwipeBack__*  
 Features:  
 * Global swipe back gesture  
-* Blacklist support (you can add any app that doesn't work with this module to blacklist)  
+* Per-app settings  
 * Custom gesture direction  
 
 Usage:  
