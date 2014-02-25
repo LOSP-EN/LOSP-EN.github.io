@@ -5,12 +5,12 @@ title: SwipeBack 2.0.0 Released
 
 Our Xposed module, SwipeBack, has a new release as 2.0.0 today.  
 
-In this new release, we did a lot of refactor, just in order to make it more useful.
+In this new release, we did a lot of refactor, just in order to make it more useful.  
 
-For example, we added per-app settings in this new version. This means you can use different swipe gestures for different apps.
+For example, we added per-app settings in this new version. This means you can use different swipe gestures for different apps.  
 
 <!--more-->
 
-Another change is we removed the huge first-run tutorial, because that is really useless.
+Another change is we removed the huge first-run tutorial, because that is really useless.  
 
-To get the download link, just visit our "Modules" page.
+To get the download link, just visit our "Modules" page.  
